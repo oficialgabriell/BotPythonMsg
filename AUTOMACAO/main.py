@@ -1,10 +1,10 @@
+import webbrowser  # Para abrir o navegador
+import pygetwindow as gw  # Para manipular as janelas abertas no sistema
 from urllib.parse import quote
 import os  # Para executar comandos no sistema operacional
 import time  # Para controlar o tempo de espera
 import pandas as pd  # Bibliotecas necessárias
 import pyautogui  # Para automação de clique e digitação
-import webbrowser  # Para abrir o navegador
-import pygetwindow as gw  # Para manipular as janelas abertas no sistema
 from dotenv import load_dotenv
 
 load_dotenv()
